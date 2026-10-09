@@ -1,3 +1,5 @@
+#température
+
 temperature : float
 
 temperature = float(input("Entrez la température : "))
@@ -11,7 +13,8 @@ elif temperature < 25:
     print("%s°C : doux" % temperature)
 else:
     print("%s°C : chaud" % temperature)
-
+    
+#année bissextile
 année : int
 
 année = int(input("Entrez une année : "))
